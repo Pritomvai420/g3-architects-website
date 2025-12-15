@@ -178,6 +178,30 @@ main > section{
   filter: grayscale(100%);
 }
 
+/* features related style */
+#feature-section-title{
+  border-left: 2px solid #FF900E;
+  padding-left: 24px;
+}
+
+.feature-card .feature-title{
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: rgba(19, 19, 19, 1);
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.feature-card{
+  padding: 30px;
+  box-shadow:0 4px 30px 0 rgba(0, 0, 0, 0.06);
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.features{
+  gap: 100px;
+}
+
 
 
 /* responsive media query */
